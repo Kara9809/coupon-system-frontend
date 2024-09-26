@@ -1,0 +1,94 @@
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.coupon-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coupon-table th,
+.coupon-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.coupon-table th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+}
+
+.coupon-table td {
+    color: #555;
+}
+
+.coupon-table img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 4px;
+}
+
+.coupon-card-actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.coupon-card-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.coupon-card-actions button:first-of-type {
+    background-color: #104a88;
+    color: #fff;
+}
+
+.coupon-card-actions button:first-of-type:hover {
+    background-color: #04366b;
+}
+
+.coupon-card-actions button:last-of-type {
+    background-color: #a22834;
+    color: #fff;
+}
+
+.coupon-card-actions button:last-of-type:hover {
+    background-color: #7f1621;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+input[type="date"] {
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+input[type="date"]:focus {
+    border-color: #0a407a;
+    outline: none;
+}

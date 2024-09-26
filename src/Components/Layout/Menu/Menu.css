@@ -1,0 +1,40 @@
+.menu {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a.active {
+    font-weight: bold;
+    color: #2067b4;
+    background-color: #e9ecef;
+}
+
+.menu a.inactive {
+    color: #555;
+}
+
+.menu a:hover {
+    color: #1c5490;
+    background-color: #dee2e6;
+}
+
+/* Add this class for rotating text */
+.rotate-text {
+    transform: rotate(-90deg);
+    /* Rotate text 270 degrees clockwise */
+    transform-origin: left center;
+    /* Set rotation point to left center */
+    display: inline-block;
+    /* Ensure rotation does not affect other layout properties */
+}

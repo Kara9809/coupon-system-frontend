@@ -1,0 +1,94 @@
+/* Container for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    /* Gradient background */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+/* Login box styling */
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    /* Limit width */
+    width: 100%;
+    /* Full width up to max-width */
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+}
+
+/* Title styling */
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.login-form input,
+.login-form select {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    /* Include padding in width */
+}
+
+.login-form input:focus,
+.login-form select:focus {
+    border-color: #5c6ac4;
+    outline: none;
+}
+
+/* Error label and input styling */
+.error-label {
+    color: #e74c3c;
+}
+
+.error-input {
+    border-color: #e74c3c;
+}
+
+/* Button styling */
+.login-button {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+    background-color: #5c6ac4;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:disabled {
+    background-color: #a0a0a0;
+}
+
+.login-button:hover:not(:disabled) {
+    background-color: #3f51b5;
+}

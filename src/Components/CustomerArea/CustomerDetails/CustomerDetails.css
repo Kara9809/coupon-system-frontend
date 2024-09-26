@@ -1,0 +1,45 @@
+.customer-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    /* Gradient background */
+    min-height: 100vh;
+    /* Ensure it covers the full height */
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    /* Ensure the card has a white background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.customer-details-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.customer-details-info p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.customer-details-info strong {
+    color: #000;
+}
+
+.customer-details-loading {
+    padding: 20px;
+    font-size: 18px;
+    color: #888;
+}

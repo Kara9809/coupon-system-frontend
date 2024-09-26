@@ -1,0 +1,141 @@
+.all-companies-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* More Options button */
+.more-options {
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.more-options button {
+    background-color: #1b497a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.more-options button:hover {
+    background-color: #184472;
+}
+
+/* Dropdown menu for More Options */
+.options-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px;
+    width: 200px;
+}
+
+.options-dropdown button {
+    background-color: transparent;
+    color: #143961;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.options-dropdown button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Modals */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.modal-content button {
+    background-color: #1e7833;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #1c742f;
+}
+
+.modal-content .close-button {
+    background-color: #89232d;
+    margin-top: 0;
+}
+
+.modal-content .close-button:hover {
+    background-color: #67151d;
+}
+
+/* Single company details */
+.company-details {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.company-details p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 16px;
+}
